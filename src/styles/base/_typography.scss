@@ -1,0 +1,33 @@
+@use "../abstract/variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  font-family: $font-family-base;
+}
+
+.h2 {
+  &__primary {
+    font-size: 48px;
+    line-height: auto;
+  }
+  &__secondary {
+    font-size: 36px;
+    line-height: auto;
+  }
+}
+
+.text {
+  &__title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  &__primary {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.font-family {
+  &--secondary {
+    font-family: $font-family-secondary;
+  }
+}
