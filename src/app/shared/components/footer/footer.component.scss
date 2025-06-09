@@ -1,0 +1,10 @@
+@use "abstract/abstract" as *;
+.footer {
+  background-color: $dark-blue;
+  &__container {
+    padding: 32px 24px;
+  }
+  &__logo {
+    max-width: 98px;
+  }
+}
