@@ -5,18 +5,19 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ThoughtCardComponent } from './components/thought-card/thought-card.component';
 import { ButtonComponent } from './compomemts/button/button.component';
 
-
-
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
     ThoughtCardComponent,
-    ButtonComponent
+    ButtonComponent,
   ],
-  imports: [
-    CommonModule
+  imports: [CommonModule],
+  exports: [
+    HeaderComponent,
+    FooterComponent,
+    ButtonComponent,
+    ThoughtCardComponent,
   ],
-  exports: [HeaderComponent, FooterComponent, ButtonComponent]
 })
-export class SharedModule { }
+export class SharedModule {}

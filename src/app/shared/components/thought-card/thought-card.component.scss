@@ -1,0 +1,28 @@
+@use "abstract/abstract" as *;
+.thought-card {
+  background-color: #f8f9fe;
+  height: 409px;
+  padding: 32px;
+  width: 377px;
+  &--dark-blue {
+    box-shadow: 8px 8px 0 0 $dark-blue;
+  }
+  &__header {
+  }
+  &__icon {
+    max-width: 64px;
+  }
+  &__body {
+    margin: 32px 0 16px;
+  }
+  &__text {
+    font-family: $font-family-secondary;
+    font-size: 16px;
+  }
+  &__author {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__footer {
+  }
+}
