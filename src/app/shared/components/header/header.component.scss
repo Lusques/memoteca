@@ -1,0 +1,24 @@
+@use "abstract/abstract" as *;
+.header {
+  background-color: $dark-blue;
+  &__container {
+    width: 100%;
+    padding-left: 220px;
+  }
+  &__info-container {
+    margin: 64px 0 86px;
+    flex-shrink: 0;
+  }
+  &__logo {
+    margin-bottom: 40px;
+    max-width: 320px;
+    width: 100%;
+  }
+  &__info-text {
+    color: $sky-blue;
+    max-width: 578px;
+  }
+  &__banner-image {
+    max-width: 807px;
+  }
+}
