@@ -1,0 +1,7 @@
+@use "abstract/abstract" as *;
+.thought-wall {
+  &__title {
+    padding: 88px 0 72px;
+    color: $dark-blue;
+  }
+}
