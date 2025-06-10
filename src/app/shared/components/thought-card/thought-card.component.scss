@@ -2,10 +2,20 @@
 .thought-card {
   background-color: #f8f9fe;
   height: 409px;
+  max-width: 377px;
   padding: 32px;
-  width: 377px;
+  width: 100%;
   &--dark-blue {
     box-shadow: 8px 8px 0 0 $dark-blue;
+  }
+  &--sky-blue {
+    box-shadow: 8px 8px 0 0 $sky-blue;
+  }
+  &--mint-green {
+    box-shadow: 8px 8px 0 0 $mint-green;
+  }
+  &--large {
+    max-width: 779px;
   }
   &__header {
   }

@@ -1,7 +1,7 @@
-<div class="thought-card thought-card--dark-blue">
-  <div class="thought-car__header">
+<div class="thought-card" [class]="getClasses()">
+  <div class="thought-card__header">
     <figure class="thought-card__icon">
-      <img src="/assets/icons/icon-quote-dark-blue.svg" alt="ícone de áspas" />
+      <img [src]="imgQuote" alt="ícone de áspas" />
     </figure>
   </div>
   <div class="thought-card__body">
@@ -13,5 +13,5 @@
     </p>
     <p class="thought-card__author mt-4">Autora da Silva Sauro</p>
   </div>
-  <div class="thought-car__footer"></div>
+  <div class="thought-card__footer"></div>
 </div>

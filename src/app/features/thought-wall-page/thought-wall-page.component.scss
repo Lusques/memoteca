@@ -5,10 +5,13 @@
     color: $dark-blue;
   }
   &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
   }
   &__item {
-    
   }
 }
